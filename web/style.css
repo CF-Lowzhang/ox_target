@@ -38,7 +38,7 @@ p {
 #options-wrapper {
   position: absolute;
   top: calc(48.4%);
-  left: calc(50% + 18pt);
+  left: calc(52% + 18pt);
 }
 
 .option-container {
@@ -47,21 +47,20 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  font-family: "Nunito";
   background: linear-gradient(
     90deg,
     rgba(20, 20, 20, 0.7) 0%,
     rgba(20, 20, 20, 0.6) 66%,
     rgba(47, 48, 53, 0) 100%
   );
-  font-size: 11pt;
-  line-height: 22pt;
+  font-size: 12pt;
+  line-height: 25pt;
   vertical-align: middle;
-  margin: 2pt;
-  transition: 300ms;
+  margin: 4pt;
+  transition: 30ms;
   transform-origin: left top;
   scale: 1;
-  height: 22pt;
+  height: 25pt;
   width: 150pt;
   top: 0;
 }
@@ -75,7 +74,7 @@ p {
   );
   transform-origin: left top;
   color: var(--color-hover);
-  margin-left: 4pt;
+  margin-left: 8pt;
 }
 
 .option-icon {

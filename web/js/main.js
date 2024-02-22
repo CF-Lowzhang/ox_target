@@ -21,8 +21,8 @@ window.addEventListener("message", (event) => {
     }
 
     case "setTarget": {
-      return (eye.src = 'https://cdn.discordapp.com/attachments/1201143976170893393/1207214837130600508/icon_alt_on_150ppi.png?ex=65e80fee&is=65d59aee&hm=2b475266dfeb08edd3e5c98e841abb1960734cf30b287dedfdb46d30e0947aac&');
-    
+      eye.src = 'https://cdn.discordapp.com/attachments/1201143976170893393/1207214837130600508/icon_alt_on_150ppi.png?ex=65e80fee&is=65d59aee&hm=2b475266dfeb08edd3e5c98e841abb1960734cf30b287dedfdb46d30e0947aac&';
+
 
       if (event.data.options) {
         for (const type in event.data.options) {

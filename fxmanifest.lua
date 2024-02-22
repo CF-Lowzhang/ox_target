@@ -9,7 +9,7 @@ name 'ox_target'
 author 'Overextended'
 version '1.14.0'
 repository 'https://github.com/overextended/ox_target'
-description ''
+description 'for CF_version'
 
 -- Manifest
 ui_page 'web/index.html'

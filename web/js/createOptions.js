@@ -8,8 +8,9 @@ function onClick() {
 
   fetchNui("select", [this.targetType, this.targetId, this.zoneId]);
   // is there a better way to handle this? probably
-  setTimeout(() => (this.style.pointerEvents = "auto"), 100);
+  setTimeout(() => (this.style.pointerEvents = "auto"), 10);
 }
+
 
 export function createOptions(type, data, id, zoneId) {
   if (data.hide) return;
@@ -26,5 +27,6 @@ export function createOptions(type, data, id, zoneId) {
   option.zoneId = zoneId;
 
   option.addEventListener("click", onClick);
+
   optionsWrapper.appendChild(option);
 }

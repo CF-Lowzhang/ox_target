@@ -1,4 +1,4 @@
-if not lib.checkDependency('ox_lib', '3.21.0', true) then return end
+ if not lib.checkDependency('ox_lib', '3.21.0', true) then return end
 
 lib.locale()
 
@@ -9,7 +9,6 @@ local options = require 'client.api'.getTargetOptions()
 require 'client.debug'
 require 'client.defaults'
 require 'client.compat.qtarget'
-require 'client.compat.qb-target'
 
 local SendNuiMessage = SendNuiMessage
 local GetEntityCoords = GetEntityCoords
